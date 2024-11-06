@@ -5,11 +5,12 @@ import Home from './pages/home/Home';
 import Projects from './pages/project/projects';
 import Contact from './pages/contact/contact';
 import NoPage from './pages/nopage/NoPage';
-
+import Header from './components/Header';
 function App() {
   return (
     <div>
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/projects" element={<Projects />}></Route>

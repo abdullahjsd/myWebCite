@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../../components/Header'
+import WhoIm from '../../components/whoIm'
 function Home() {
     return (
         <div>
-            <Header />
+            <WhoIm />
         </div>
     )
 }
