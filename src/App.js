@@ -6,6 +6,8 @@ import Projects from './pages/project/projects';
 import Contact from './pages/contact/contact';
 import NoPage from './pages/nopage/NoPage';
 import Header from './components/Header';
+import Foother from './components/foother'
+
 function App() {
   return (
     <div>
@@ -17,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="*" element={<NoPage />} />
         </Routes>
+        <Foother />
       </BrowserRouter>
     </div>
   );
