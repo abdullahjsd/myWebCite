@@ -1,6 +1,6 @@
 import React from 'react'
 import Myimg from '../img/img.jpg'
-import './styles/whoIm.css'
+import './style/whoIm.css'
 import Social from './social'
 
 function whoIm() {
@@ -26,8 +26,8 @@ function whoIm() {
                                     <h5 className="card-text">Ben Kimim !!! </h5>
                                 </div>
                                 <div className="btn-group gap-3">
-                                    <button type="button" class="btn btn-primary">Primary</button>
-                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <button type="button" className="btn btn-primary">Primary</button>
+                                    <button type="button" className="btn btn-primary">Primary</button>
                                 </div>
 
                                 <div className="card-body text-start">
